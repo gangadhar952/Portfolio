@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morasani Gangadhar Reddy - Front End Web Developer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-size:30px;
+        }
+        header {
+            background-color: #f0edec;
+            color: hsl(121, 82%, 46%);
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #cfc3c7;
+            display: flex;
+            justify-content: center;
+            padding: 1.5rem 0;
+        }
+        nav a {
+            color: rgb(18, 17, 17);
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: hsl(234, 77%, 52%);
+            font-size: 30px;
+        }
+        .skills, .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .skill, .project {
+            background-color: hsl(0, 0%, 3%);
+            color: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 0.5rem;
+            flex: 1 1 calc(45% - 1rem);
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .skill img, .project img {
+            width: 50px;
+            height: 50px;
+        }
+        .education-row {
+            background: linear-gradient(to right, red, hsl(319, 71%, 55%));
+            border-radius: 5px;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            text-align: center;
+            color: rgb(236, 252, 22);
+        }
+        footer {
+            background-color: hsl(318, 76%, 52%);
+            color: rgb(244, 230, 230);
+            text-align: center;
+            padding: 1rem 0;
+            bottom: 0;
+            width: 100%;
+        }
+        a.resume-button {
+            display: inline-block;
+            background-color: #ff5733;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+        a.resume-button:hover {
+            background-color: #c70039;
+        }
+        .project img, .profile-img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Morasani Gangadhar Reddy</h1>
+    <p>Front End Web Developer</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+</nav>
+
+<section id="about" class="container">
+    <h2>About Me</h2>
+    <img src="./20AT1A0431_M_2020_2024.jpg" alt="Profile Picture" class="profile-img">
+    <p>Hi, I'm Morasani Gangadhar Reddy, a passionate front end web developer with a knack for creating dynamic and responsive web applications. I love exploring new technologies and continuously improving my skill set.</p>
+</section>
+
+<section id="education" class="container">
+    <h2>Education</h2>
+    <div class="education-row">
+        <p><strong>B.Tech</strong> - 8.4 GPA (2020-2024)</p>
+    </div>
+    <div class="education-row">
+        <p><strong>Intermediate</strong> - 8.5 GPA (2018-2020)</p>
+    </div>
+    <div class="education-row">
+        <p><strong>10th</strong> - 9.7 GPA (2017-2018)</p>
+    </div>
+</section>
+
+<section id="skills" class="container">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python">
+            <p>Python</p>
+        </div>
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C">
+            <p>C</p>
+        </div>
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML">
+            <p>HTML</p>
+        </div>
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS">
+            <p>CSS</p>
+        </div>
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript">
+            <p>JavaScript</p>
+        </div>
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java">
+            <p>Java</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="project">
+            <h3>Spotify Clone</h3>
+            <img src="./Spotify_favicon.png" alt="Spotify Clone Project Image">
+            <p>A web application that mimics the functionality of Spotify, built using modern web technologies.</p>
+        </div>
+        <div class="project">
+            <h3>Desktop Assistant</h3>
+            <img src="./voice.jpg" alt="Desktop Assistant Project Image">
+            <p>An AI-powered desktop assistant to help with daily tasks and information retrieval.</p>
+        </div>
+    </div>
+</section>
+
+<section id="resume" class="container">
+    <h2>Resume</h2>
+    <p>You can download my resume by clicking the button below:</p>
+    <a href="./Gangadhar ResumeEdit.docx" class="resume-button">Download Resume</a>
+</section>
+
+<footer>
+    <p>&copy; 2024 Morasani Gangadhar Reddy. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
